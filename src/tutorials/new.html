@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div class="company">
+    <ul>
+    <li>google</li>
+    <li>guestglobal</li>
+    <li>infosys</li>
+    <li>cognizent</li>
+    <li>airport school</li>
+
+    </ul>
+</div>
+<div class="school">
+    <ul>
+        <li>airport school</li>
+        <li>rays public school</li>
+        <li>gvhsss</li>
+        <li>tkm collegeb of engineering</li>
+        <li>riju and psk classes</li>
+    </ul>
+</div>
+<script>
+    let first=document.querySelector('.company');
+    first.addEventListener('mousemove',second);
+    function second(e){
+        console.log(e.type);
+    document.body.style.backgroundColor=`rgb(${e.offsetX},${e.offsetY},20)`;
+    }
+    
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: ClearSans-Regular;
+    src: url(./fonts/ClearSans-Regular.ttf);
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'ClearSans-Medium';
+    src: url(./fonts/ClearSans-Medium.ttf);
+    font-style: medium;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: ClearSans-Bold;
+    src: url(./fonts/ClearSans-Bold.ttf);
+    font-style: bold;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: ClearSans-Thin;
+    src: url(./fonts/ClearSans-Thin.ttf);
+    font-style: thin;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: ClearSans-Light;
+    src: url(./fonts/ClearSans-Light.ttf);
+    font-style: Light;
+    font-weight: 300;
+}
+
+.textColorBlack {
+    color: #000;
+}
+
+.textColorGray {
+    color: #919191;
+}
+
+.detailBox .textColorGray,
+.detailBox .textColorBlack {
+    font-size: 18px;
+}
+
+.tag {
+    font-size: 22px;
+    font-weight: 600;
+}

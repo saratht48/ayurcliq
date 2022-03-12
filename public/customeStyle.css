@@ -1,0 +1,1334 @@
+@import "fontStyle.css";
+@import "heading.css";
+
+body {
+    font-family: ClearSans-Regular;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.topband {
+    min-height: 50px;
+    background-color: #99764f;
+}
+
+
+.topText {
+    color: #fff;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+
+i.cart {
+    width: 70px;
+    font-size: 25px;
+    padding-top: 15px;
+    vertical-align: sub;
+    color: #fff;
+}
+/* Top ban Css End */
+
+.banner {
+    min-height: 300px;
+    background-color: gray;
+    position: relative;
+    background-image: url(../images/BannerIMG/bannerSlider1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cartIcon {
+    text-decoration: none;
+    color: #fff
+}
+
+    .cartIcon:hover i{
+        text-decoration: none;
+        color:#f38710
+    }
+
+.mainSliderBase {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.brandimg {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.Package {
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+    .Package img {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+.PackagesSliderBase {
+    width: 97%;
+    margin: 0 auto;
+}
+
+.Package a {
+    text-decoration: none;
+    color: #000;
+}
+
+.boxShadow {
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.24);
+}
+
+.readmoreIcon {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 12px;
+    color: #fff;
+    font-size: 8px;
+    background-color: #99764f;
+}
+
+.typeimg {
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+}
+
+    .typeimg .titleAlign {
+        width: 100%;
+        position: absolute;
+        bottom: 30px;
+        z-index: 500;
+    }
+
+.treatmentPlan {
+    background-color: #fef5ee;
+}
+
+.treatmentPlanContent {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.treatmentIcon {
+    background-image: url(../images/TreatmentPlan.jpg);
+    background-repeat: no-repeat;
+    min-height: 130px;
+}
+
+.comboimg {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.imgIcon {
+    position: absolute;
+    top: -80px;
+    left: 0px;
+}
+
+.PreimgIcon {
+    position: absolute;
+    top: -50px;
+    left: 0px;
+}
+
+.imgIconPrescription {
+    position: absolute;
+    top: -50px;
+    left: 0px;
+}
+
+.PrescriptionsAllign {
+    padding-left: 10rem;
+}
+
+.PrescriptionsAllign2 {
+    padding-left: 8rem;
+}
+
+
+.recentlyViewed {
+    width: 95%;
+    min-height: 150px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.PrescriptionsBase {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    min-height: 120px;
+}
+
+    .PrescriptionsBase p {
+        font-size: 18px;
+    }
+
+
+#Recently .brandimg {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    #Recently .brandimg .img-fluid {
+        width: 60% !important;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #Recently .brandimg .text-center {
+        text-align: center !important;
+        display: -webkit-box;
+        max-width: 200px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+
+
+
+.filterWrapper {
+    background-color: #EFEDEA;
+    min-height: 100vh;
+}
+
+.filterSelection {
+    width: 80%;
+    margin: 0px auto;
+    background-color: #fff;
+    min-height: 100vh;
+    border-radius: 10px;
+}
+
+.productCard {
+    width: 100%;
+    background-color: #fff;
+    min-height: 250px;
+    border-radius: 10px;
+}
+
+    .productCard .productIMG {
+        width: 70%;
+        height: 180px;
+        margin: 0 auto;
+    }
+
+        .productCard .productIMG img {
+            width: 100%;
+            height: 180px;
+            object-fit: contain;
+            margin: 0 auto;
+        }
+
+    .productCard .knowMore {
+        text-align: right;
+        padding-right: 20px;
+        font-size: 12px;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    .productCard .contactNum {
+        text-align: center;
+        font-size: 18px;
+        vertical-align: middle;
+    }
+
+.nib {
+    color: #94724d;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+    .nib:hover {
+        color: red;
+        transition: all 0.5s ease-in-out;
+    }
+
+.MRP {
+    color: red;
+    text-decoration: line-through;
+}
+
+.MRP i{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.AddPlus {
+    font-weight: bold;
+    color: #94724d;
+    cursor: pointer;
+}
+
+    .AddPlus:hover {
+        color: red;
+        transition: all 0.5s ease-in-out;
+    }
+
+.productCard .knowMore a {
+    color: #000;
+    text-decoration: none;
+}
+
+    .productCard .knowMore a:hover {
+        color: green;
+        transition: all 0.5s ease-in-out;
+    }
+
+.MEDpagination {
+    margin: 0 auto;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    line-height: normal;
+    display: inline-block;
+}
+
+.pagination span {
+    cursor: pointer;
+}
+
+.extraContent {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.extraContent img {
+    width: 100%;
+}
+
+
+.detailImageHolder {
+    width: 95%;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.detailBox {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    min-height: 100px;
+}
+
+.detailBox .AddPlus {
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: #99764f;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.detailBox .AddPlus:hover {
+    font-weight: bold;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+
+.detailImage {
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+
+.Quantity i {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.Quantity i:hover {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    color: red;
+}
+
+
+.sampleProducts .productCard .productIMG {
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.sampleProducts .productCard .productIMG img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.sampleProducts .badge {
+    padding: .25em .4em;
+    font-size: 65%;
+    font-weight: 100;
+}
+
+.MajorIngredientsbase {
+    width: 98%;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.cartBase {
+    width: 95%;
+    margin: 0px auto;
+}
+
+.checkOutBase {
+    width: 95%;
+    margin: 0px auto;
+}
+
+.cartdetails {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    min-height: 100px;
+    padding-bottom: 20px;
+}
+
+.cartImgBase {
+    width: 75%;
+    height: 120px;
+    margin: 15px 0px;
+}
+
+.cartImgBase img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+}
+
+
+.newCartImgBase{width:100%;height: 120px;margin:0px 0px;}    
+.newCartImgBase img {width: 100%;height: 120px;object-fit: contain;}
+
+.cartBlock {
+    width: 90%;
+    margin: 0px auto;
+    border-bottom: 1px black solid;
+    border-top: 0px black solid;
+}
+
+.qartqty {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.deleteItem {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    z-index: 500;
+}
+
+.deleteItem:hover {
+    transition: all 0.5s ease-in-out;
+    color: red;
+}
+
+.txtboxshadow {
+    box-shadow: 0px 0px 2px 1px rgb(52 49 48 / 19%);
+    -webkit-box-shadow: 0px 0px 2px 1px rgb(52 49 48 / 19%);
+    -moz-box-shadow: 0px 0px 2px 1px rgb(52 49 48 / 19%);
+}
+
+.txtboxshadow2 {
+    box-shadow: 0px 0px 3px 1px rgb(66 63 77 / 35%);
+    -webkit-box-shadow: 0px 0px 3px 1px rgb(66 63 77 / 35%);
+    -moz-box-shadow: 0px 0px 3px 1px rgb(66 63 77 / 35%);
+}
+
+.promeCode {
+    padding: 8px;
+    border-radius: 10px;
+    color: #b5b1b1;
+    width: 90%;
+    font-size: 16px;
+}
+
+.calculation {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 20px 0px;
+}
+
+.cartCheckIcon {
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px black solid;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 18px;
+    font-size: 10px;
+    color: white;
+}
+
+.cartActive {
+    background-color: green;
+}
+
+.cartStepText {
+    font-size: 18px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: pink;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: pink;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color: pink;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: pink;
+}
+
+
+textarea::-webkit-input-placeholder {
+    color: #000;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+    color: #000;
+}
+
+textarea::-moz-placeholder { /* Firefox 19+ */
+    color: #000;
+}
+
+textarea:-ms-input-placeholder {
+    color: #000;
+}
+
+textarea::placeholder {
+    color: #000;
+}
+
+.cartSummeryImgbase {
+    width: 100%;
+    margin: 0px 0px;
+    text-align: center;
+}
+
+.cartSummeryImgbase img {
+    width: 90%;
+    margin: 0px 0px;
+}
+
+.indexText{
+    font-size: 14px;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.indexTextFull{
+    max-width: 100%;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: auto;   
+}
+
+
+.articleBox{
+    width: 98%;
+    margin: 0px auto;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.articleBox img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.articleBox a {
+    color: #000;
+    text-decoration: none;
+}
+
+.articleBox a:hover {
+    color: #545454;
+    text-decoration: none;
+}
+
+.articledetailHolder{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.articledetailImg{
+    width: 100%;
+    margin: 0 auto;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.articledetailImg img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.articledetailDRImg{
+    width: 100%;
+    height: 180px;
+}
+
+.articledetailDRImg img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.dotimg{
+    width: 100%;
+    height: 80px;
+}
+
+.dotimg img{
+    width: 100%;
+    height: 80px;
+    object-fit: contain;
+}
+
+.dotimgBTN{
+    border-radius: 4px 0px 0px 4px;
+    font-size: 12px;
+}
+
+
+.checkOutOtp{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.numberEdit{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    line-height: 30px;
+    right: 10px;
+    top: 3px;
+    cursor: pointer;
+}
+
+.numberEdit:hover{
+    color: #e19a53;
+}
+
+.cartStickyFooter{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    border-top: 1px black solid;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1000;
+    display: none;
+}
+.notMob{
+    display: block;
+}
+
+.OTP{
+    display: none;
+}
+.OTPopen{
+    display: flex;
+}
+
+.deliveryAddress{
+    width: 96%;
+    margin: 0 auto;
+    position: 10px;
+    border-radius: 5px;
+}
+
+.deliveryAddress h6{
+    font-size:14px;
+    font-weight: 800;
+}
+
+
+.deliveryAddress p{
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 5px;
+}
+
+.addressSelectIcon {
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px black solid;
+    text-align: center;
+    line-height: 18px;
+    font-size: 10px;
+    color: white;
+    margin: 0 auto;
+}
+
+.homeAndEditBTNBase{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    width: 100%;
+    text-align: right;
+    padding: 5px 0px;
+}
+
+.addressHomeBTN{
+    display: inline-block;
+    padding: 0px 15px;
+    background-color: lightgray;
+    cursor: pointer;
+    color: #000;
+    font-size: 12px;
+    border-radius: 5px;
+    line-height: unset;
+    padding-bottom: 1px;
+}
+
+.addressHomeBTN:hover{
+    background-color: gray;
+    transition: all 0.2s easy-in-out;
+}
+
+.deliveryAddressEdit{
+    color: lightgray;
+    cursor: pointer;
+    padding: 0px 15px;
+    display: inline-block;
+}
+
+.deliveryAddressEdit:hover{
+    color:gray;
+}
+
+.orderSuccessBase{
+    width:55%;
+    margin:0 auto;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.successIMGBase{
+    width: 60%;
+    margin: 0 auto;
+    height: 300px;
+}
+.successIMGBase img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.indication{
+    width:60%;
+    margin:0px auto;
+}
+
+.failIMGBase {
+    width: 40%;
+    margin: 0 auto;
+    height: 200px;
+    text-align: center;
+}
+
+.medicinePrescription{
+    text-align: center;
+}
+
+.Prescriptionlist{
+    width:320px;
+    margin: 0 auto;
+    text-align: left;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.Prescriptionlist li{
+    margin-bottom:10px;
+}
+
+.iconfontsPupload{
+    font-size:60px;
+}
+
+
+.activeAddress{
+    color: #000;
+} 
+
+
+.deliveryAddressWrapper{
+    height: 386px;
+    overflow: hidden;
+    padding-top: 5px;
+}
+.deliveryAddressWrapperOpen{
+    height: auto;
+}
+
+.dashbordGraphWrapper{
+    min-height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.SmallBox{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    min-height: 100px;
+    border-radius: 5px;
+}
+
+.numberSize{
+    font-size: 28px;
+}
+
+.boxShadow2 {
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 24%);
+    -webkit-box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 24%);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.24);
+}
+
+.dashboardMenu{
+    list-style-type: none;
+    border-radius: 10px;
+}
+
+.dashboardMenu li{
+    padding: 10px 15px;
+    margin-bottom: 1px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.dashboardMenu a{
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+    width: 100%;
+}
+.dashboardMenu a:hover{
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.dMenuIS{
+    font-size: 18px;
+}
+
+
+.shareTxt{
+    vertical-align: text-bottom;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.mailIcon{
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 10px;
+    color: indianred;
+    cursor: pointer;
+}
+
+.socialIcon{
+    font-size: 25px;
+    font-weight: bold;
+    color: #4caf50;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.smsIcon{
+    font-size: 25px;
+    font-weight: bold;
+    color: #03a9f4;
+    cursor: pointer;
+}
+
+.displayBox{
+   position: relative;
+}
+
+.displayBoxin{
+   width: 95%;
+   margin: 0 auto;
+   height: 150px;
+   background-color: gray;
+   border: 1px black solid;
+   text-align: center;
+   padding-top: 4px;
+}
+
+.displayBoxin img{
+   width: 95%;
+   height: 140px;
+   object-fit: fill;
+}
+
+.crosBTN{
+    width: 25px;
+    height: 25px;
+    background-color: #d7c9c9;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 900;
+    position: absolute;
+    right: -7px;
+    top: -10px;
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+.crosBTN:hover{
+    background-color: #99764f;
+    color: #fff;
+}
+
+#myModal .close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+    position: absolute;
+    z-index: 1000;
+    right: -37px;
+}
+
+#myModal .modal-body {
+    padding: 0rem;
+}
+
+#myModal .modal-body .leftpart {
+    height: 400px;
+    background-color: #0e0b0b;
+    border-radius: 4px 0px 0px 4px;
+    background-image: url(../images/ModalLeftBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modal{top:50px;}
+
+.numberwrapper{
+    width:70%;
+    margin:0 auto;
+    text-align:left;
+}
+.numberFrame{
+    display:block;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.numberPatch{
+    display:block;
+    width: 75%;
+    background-color: #fff;
+    border-bottom: 1px black solid;
+    margin: 0 auto;
+}
+
+.numberFrameinput{
+    border: 0px;
+    box-shadow: none;
+    text-align: center;
+}
+
+.numberPatch .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+
+.OTPbase{
+    height:300px;
+    font-size:20px;
+   
+}
+
+.Loginbase{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/*Order Tracking */
+
+.date {
+    font-size: 11px
+}
+
+.divider {
+    height: 0px !important;
+    background-color: blue
+}
+
+.track-line {
+    height: 2px !important;
+    background-color: green
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 0px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.big-dot {
+    height: 25px;
+    width: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.big-dot i {
+    font-size: 12px
+}
+
+/* Order tracking End */
+
+
+
+/*Footer css*/
+.footer {
+    background-color: #545454;
+    padding: 30px 45px;
+    min-height: 150px;
+}
+
+    .footer ul li {
+        margin-bottom: 10px;
+    }
+
+        .footer ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
+        }
+
+            .footer ul li a:hover {
+                color: #000;
+                text-decoration: none;
+                transition: all 0.2s ease-in-out;
+            }
+
+.socialIconsBase {
+    padding-top: 30px;
+}
+
+    .socialIconsBase a {
+        color: #545454;
+        text-decoration: none;
+    }
+
+.socialIconsBase a:hover{
+    text-decoration: none;
+}
+
+.socialIcons {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    margin: 0px 5px;
+    color: #545454;
+    cursor: pointer;
+}
+
+    .socialIcons:hover {
+        color: #99764f;
+        transition: all 0.2s ease-in-out;
+    }
+
+.footersplit {
+    border-top: 1px #fff solid;
+    border-bottom: 1px #fff solid;
+    min-height: 100px;
+    width: 100%;
+}
+
+.activeGrms {
+    /*background-color: #b7936c !important;*/
+    color: #b7936c !important;
+    text-decoration: underline;
+}
+
+.inandout{
+    display:block;
+}
+#filter {
+    display: none;
+}
+
+.QuantityWrapper .qartqty {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+.namePartTxt{
+    width:60%;
+    padding-top: 20px;
+}
+
+
+.deliveryAddressEdit2{
+    color: lightgray;
+    cursor: pointer;
+    padding: 0px;
+    display: inline-block;
+    padding-right:5px;
+    padding-left: 5px;
+}
+
+
+.deliveryAddressDelete{
+    color: lightgray;
+    cursor: pointer;
+    display: inline-block;
+    padding:0px;
+    padding-right:20px;
+}
+
+
+.addressSelectIconselect {
+    width:18px;
+    height:18px;
+    background-color: white;
+    border-radius:50%;
+    border:2px #999292 solid;
+    text-align:center;
+    line-height:13px;
+    font-size:8px;
+    color:white;
+    margin:0 auto;
+    display:inline-block;
+    vertical-align:text-bottom;
+    cursor: pointer;
+}
+
+.Setasdefault{
+    font-size:14px;
+    font-weight:800;
+    cursor: pointer;
+}
+
+.activedefaultAddress{
+    color: #fff !important;
+    border: 0px #fff solid !important;
+    background-color: #8bc34a !important;
+    font-size: 10px !important;
+    line-height: 18px !important;
+}
+
+.orderBlock {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 1450px) {
+    .PrescriptionsBase {
+        width: 1010px;
+    }
+
+    .treatmentPlanContent {
+        width: 900px;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .topText {
+        padding-top: 5px;
+    }
+
+    i.cart {
+        width: 50px;
+        font-size: 20px;
+        padding-top: 8px;
+    }
+
+    .treatmentPlanContent {
+        width: 90%;
+    }
+
+    .imgIcon,.PreimgIcon{
+        position: absolute;
+        top: 0px;
+        left: 13px;
+        width: 28%;
+        height: 145px;
+    }
+
+    .imgIconPrescription {
+        top: 0px;
+    }
+
+    .PrescriptionsBase {
+        width: 90%;
+    }
+
+    .PrescriptionsBase p {
+       font-size: 16px;
+    }
+
+    .PrescriptionsAllign2,
+    .PrescriptionsAllign {
+        padding-left: 10rem;
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .recentlyViewed.boxShadow {
+        box-shadow: none;
+    }
+
+    #Recently .brandimg .img-fluid {
+        width: 100% !important;
+    }
+
+    .detailImageHolder {
+        width: 95%;
+    }
+
+    .filterSelection {width: 98%;min-height:auto}
+
+    .inandout {display: none;}
+
+    #filter{display:block;}
+
+    .productCard {
+        width: 98%;
+        background-color: #fff;
+        min-height: 250px;
+        border-radius:0px;
+        margin: 0 auto;
+        margin-bottom: 4px;
+    }
+    #listHolder .boxShadow {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+    }
+
+    .cartImgBase{
+        display: none;
+    }
+
+    h6 {
+    font-family: 'ClearSans-Regular';
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+    display: -webkit-box;
+    max-width: 260px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    }
+
+    .newCartImgBase {display: none;}
+    .calculation {width: 95%;}
+    .notMob{display: none;}
+    .cartStickyFooter{display: block;}
+
+    .indication{
+        width:90%;
+        margin:0px auto;
+    }
+
+    .orderSuccessBase{width:85%;text-align: center;}
+    .successIMGBase{width: 60%;height: 273px;padding-top: 10px;padding-bottom: 10px;}
+    .successIMGBase img {height: 260px;}
+    .failIMGBase {width: 100%;height: 200px;}
+    .Prescriptionlist {padding-left: 20px;padding-bottom: 20px;}
+    .articledetailHolder{width: 99%}
+    .iconfontsPupload{font-size:30px;} 
+    .namePartTxt{width:100%;}
+}

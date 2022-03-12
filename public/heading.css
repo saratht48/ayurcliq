@@ -1,0 +1,78 @@
+.heading {
+    font-size: 30px;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    font-family: ClearSans-Bold;
+    font-weight: 600;
+}
+
+.txt-black {
+    color: #000 !important;
+}
+
+h2 {
+    font-family: 'ClearSans-Regular';
+    font-size: 25px;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: 'ClearSans-Bold';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: 'ClearSans-Medium';
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+    color: #fff;
+}
+
+h5 {
+    font-family: 'ClearSans-Medium';
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+h6 {
+    font-family: 'ClearSans-Regular';
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.bannerTxt {
+    font-family: ClearSans-Bold;
+    font-weight: 600;
+    font-size: 30px;
+    color: #000;
+    padding: 100px;
+    position:absolute;
+}
+
+.detailBox h2 {
+    font-family: 'ClearSans-bold';
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.sampleProducts h4 {
+    font-family: 'ClearSans-regular';
+    font-size: 22px !important;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    h3 {
+        font-size: 16px;
+    }
+}
